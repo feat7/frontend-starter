@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": ""
+    "start": "node_modules\\.bin\\live-server"
   },
   "keywords": [
     "Frontend",
@@ -15,7 +15,6 @@
   "author": "Vinay Khobragade",
   "license": "MIT",
   "dependencies": {
-    "bulma": "^0.6.2",
-    "font-awesome": "^4.7.0"
+    "live-server": "^1.2.0"
   }
 }
